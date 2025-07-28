@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1c9a9313-3653-49cd-af43-62839d84c3d8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecureAuth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e55bc5cad37f53a78f5558e492f699c5cacd208")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cab0c395f70dad0c1576406772350f82ab927c34")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecureAuth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecureAuth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
