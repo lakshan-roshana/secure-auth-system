@@ -58,10 +58,10 @@ project.fragment.lock.json
 artifacts/
 
 # SECURITY - Configuration files with secrets
+appsettings.Development.json
 appsettings.Production.json
 appsettings.Staging.json
 appsettings.Local.json
-appsettings.Development.json
 # Keep the main appsettings.json but we'll remove secrets from it
 
 # User Secrets (these are safe as they're stored locally)

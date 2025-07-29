@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "ConnectionString": "YOUR_MONGODB_CONNECTION_STRING_HERE",
+    "DataBase": "securedb",
+    "Collection": "users"
+  },
+  "Jwt": {
+    "SecretKey": "YOUR_JWT_SECRET_KEY_HERE_AT_LEAST_32_CHARACTERS"
+  }
+}
